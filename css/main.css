@@ -41,7 +41,7 @@ body {
   font-family: sans-serif;
 }
 
-body strong {
+h1 {
   color: #fff;
   font-size: 2rem;
 }
