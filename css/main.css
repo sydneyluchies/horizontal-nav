@@ -9,21 +9,22 @@ html {
 html {
   background-color: #dbd6cf;
   font-family: Bevan;
-  line-height: 1.5;
+  line-height: .75;
   text-align: center;
+  border-color: #f33;
 }
 
 .buttons {
-  margin: .3em
-  padding: .6em
+  margin: .0em;
+  padding: .0em;
   list-style-type: none;
   background-color: #79756f;
   border-color: #595652;
 }
 
 body {
-  margin: .3em
-  padding: .6em
+  margin: 0;
+  padding: 0;
   list-style-type: none;
   background-color: #79756f;
   border-color: #595652;
@@ -31,9 +32,9 @@ body {
 
 .buttons li {
   display: inline-block;
-  margin: 0 .5em 1em;
-  max-width: 20em;
-  padding: 1em;
+  margin: 0 .3em 1em;
+  max-width: 10em;
+  padding: .75em;
   background-color: #713837;
   border-radius: 10px;
   text-align: left;
