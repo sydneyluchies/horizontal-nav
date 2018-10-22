@@ -1,0 +1,47 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+html {
+  background-color: #dbd6cf;
+  font-family: Bevan;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.buttons {
+  margin: .3em
+  padding: .6em
+  list-style-type: none;
+  background-color: #79756f;
+  border-color: #595652;
+}
+
+body {
+  margin: .3em
+  padding: .6em
+  list-style-type: none;
+  background-color: #79756f;
+  border-color: #595652;
+}
+
+.buttons li {
+  display: inline-block;
+  margin: 0 .5em 1em;
+  max-width: 20em;
+  padding: 1em;
+  background-color: #713837;
+  border-radius: 10px;
+  text-align: left;
+  color: #fff;
+  font-family: sans-serif;
+}
+
+body strong {
+  color: #fff;
+  font-size: 2rem;
+}
