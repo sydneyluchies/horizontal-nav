@@ -21,19 +21,39 @@ body {
 
 .buttons li {
   display: inline-block;
-  margin: 0 .3em 1em;
+  margin: 0 .3em .5em;
   max-width: 10em;
   padding: .75em;
   background-color: #713837;
+  border-color: #713837;
+  border-style: solid;
   border-radius: 5px;
   text-align: left;
-  color: #fff;
   margin-bottom: .35rem;
+  margin-right: 0;
+  margin-left: .125rem;
+}
+
+.buttons a {
+  text-decoration: none;
+  color: #fff;
 }
 
 h1 {
-  font-family: Bevan;
+  font-family: Bevan, cursive;
   color: #fff;
   font-size: 2rem;
   background-color: #79756f;
+  margin-bottom: .5rem;
+}
+
+.buttons li:hover {
+  background-color: #f33;
+  border-color: #f33;
+  border-style: solid;
+}
+
+.buttons {
+  margin-top: 0;
+  padding-left: 0;
 }
