@@ -1,33 +1,23 @@
 html {
   box-sizing: border-box;
+  background-color: #dbd6cf;
+  line-height: .75;
+  text-align: center;
+  border-color: #f33;
+  font-family: sans-serif;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
 
-html {
-  background-color: #dbd6cf;
-  font-family: Bevan;
-  line-height: .75;
-  text-align: center;
-  border-color: #f33;
-}
-
-.buttons {
-  margin: .0em;
-  padding: .0em;
-  list-style-type: none;
-  background-color: #79756f;
-  border-color: #595652;
-}
-
 body {
   margin: 0;
-  padding: 0;
   list-style-type: none;
   background-color: #79756f;
   border-color: #595652;
+  border-style: solid;
+
 }
 
 .buttons li {
@@ -36,13 +26,15 @@ body {
   max-width: 10em;
   padding: .75em;
   background-color: #713837;
-  border-radius: 10px;
+  border-radius: 5px;
   text-align: left;
   color: #fff;
-  font-family: sans-serif;
+  margin-bottom: .35rem;
 }
 
 h1 {
+  font-family: Bevan;
   color: #fff;
   font-size: 2rem;
+  background-color: #79756f;
 }
